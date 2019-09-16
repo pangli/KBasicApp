@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/parent_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp48"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+    <com.wang.avi.AVLoadingIndicatorView
+            android:id="@+id/footer_loading"
+            android:layout_width="@dimen/dp32"
+            android:layout_height="42dp"
+            android:layout_marginTop="8dp"
+            app:indicatorColor="@color/color_999999"
+            app:indicatorName="BallPulseIndicator" />
+
+    <TextView
+            android:id="@+id/txt_message"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp52"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/color_f6f6f6"
+            android:textSize="@dimen/sp14"
+            android:visibility="gone" />
+
+</LinearLayout>

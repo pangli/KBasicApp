@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="CommonDialogStyle" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="ShareDialogAnimation" parent="android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/anim_share_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/anim_share_dialog_out</item>
+    </style>
+
+    <style name="LoadingProgressBar">
+        <item name="colorAccent">@color/color_ffffff</item>
+    </style>
+
+    <style name="StateLoadingProgressBar">
+        <item name="colorAccent">@color/color_999999</item>
+    </style>
+
+    <style name="Matisse_Custom" parent="Matisse.Zhihu">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+    </style>
+</resources>

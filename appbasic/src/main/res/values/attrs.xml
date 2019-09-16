@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundImageView">
+        <attr name="riv_leftTopRadius" format="dimension|reference" />
+        <attr name="riv_rightTopRadius" format="dimension|reference" />
+        <attr name="riv_rightBottomRadius" format="dimension|reference" />
+        <attr name="riv_leftBottomRadius" format="dimension|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="AbsRoundImageView">
+        <attr name="riv_borderWidth" format="dimension|reference" />
+        <attr name="riv_borderColor" format="color|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleView">
+        <attr name="circle_view_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="CommonTitleBar">
+
+        <attr name="leftIconVisible" format="enum">
+            <enum name="visible" value="0" />
+            <enum name="gone" value="1" />
+        </attr>
+
+        <attr name="backgroundColor" format="color" />
+        <attr name="leftIcon" format="reference" />
+        <attr name="rightIcon" format="reference" />
+        <attr name="centerText" format="string" />
+        <attr name="centerTextColor" format="color" />
+
+        <attr name="subCenterText" format="string" />
+        <attr name="subCenterTextColor" format="color" />
+
+        <attr name="rightText" format="string" />
+        <attr name="rightTextColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="FlowTagView">
+        <attr name="lineSpacing" format="dimension" />
+        <attr name="tagSpacing" format="dimension" />
+        <!-- 是否是固定布局 -->
+        <attr name="isFixed" format="boolean" />
+        <attr name="columnSize" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="FastSortView">
+        <attr name="fsvName" format="string" />
+        <attr name="fsvNameColor" format="color" />
+        <attr name="fsvNameSize" format="dimension|reference" />
+        <attr name="fsvNameFontStyle">
+            <enum name="normal" value="1" />
+            <enum name="bold" value="2" />
+        </attr>
+        <attr name="fsvAlign">
+            <!--左居中显示-->
+            <enum name="center_left" value="1" />
+            <!--右居中显示-->
+            <enum name="center_right" value="2" />
+            <!--全居中显示-->
+            <enum name="center" value="3" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="ProgressStateView">
+        <attr name="offset" format="dimension" />
+        <attr name="outRingColor" format="color" />
+        <attr name="circleBackgroundColor" format="color" />
+        <attr name="innerCircleBackgroundColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="SelectImagesView">
+        <attr name="supportStartAdd" format="boolean" />
+        <attr name="gridCount" format="integer" />
+        <attr name="itemGap" format="dimension|reference" />
+        <attr name="parentMarginLeft" format="dimension|reference" />
+        <attr name="parentMarginRight" format="dimension|reference" />
+        <attr name="parentMarginTop" format="dimension|reference" />
+        <attr name="parentMarginBottom" format="dimension|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ShadowLayout">
+        <!--阴影的圆角大小-->
+        <attr name="hl_cornerRadius" format="dimension" />
+        <!--阴影的扩散范围(也可以理解为扩散程度)-->
+        <attr name="hl_shadowLimit" format="dimension" />
+        <attr name="hl_shadowColor" format="color" />
+        <attr name="hl_shadowBackGroundColor" format="color" />
+        <!--x轴的偏移量-->
+        <attr name="hl_dx" format="dimension" />
+        <!--y轴的偏移量-->
+        <attr name="hl_dy" format="dimension" />
+        <!--左边是否显示阴影-->
+        <attr name="hl_leftShow" format="boolean" />
+        <!--右边是否显示阴影-->
+        <attr name="hl_rightShow" format="boolean" />
+        <!--上边是否显示阴影-->
+        <attr name="hl_topShow" format="boolean" />
+        <!--下面是否显示阴影-->
+        <attr name="hl_bottomShow" format="boolean" />
+
+    </declare-styleable>
+</resources>

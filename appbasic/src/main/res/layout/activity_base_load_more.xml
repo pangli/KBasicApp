@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kcrason.appbasic.widget.layouts.ASwipeRefreshLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_height="match_parent">
+
+    <com.kcrason.appbasic.widget.recyclerview.LoadMoreRecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/loadMoreRecyclerView"/>
+
+</com.kcrason.appbasic.widget.layouts.ASwipeRefreshLayout>

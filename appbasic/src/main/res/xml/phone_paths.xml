@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!--配置内置sd所有文件夹权限 Environment.getExternalStorageDirectory()-->
+    <external-path
+        name="camera_photos"
+        path="/"/>
+
+    <!--配置cache所有文件夹权限 context.getCacheDir()-->
+    <cache-path
+        name="cache_content"
+        path="/"/>
+</paths>

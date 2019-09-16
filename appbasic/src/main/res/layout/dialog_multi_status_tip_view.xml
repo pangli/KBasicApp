@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="@drawable/shape_multi_status_tip_layout_bg"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:paddingLeft="@dimen/dp14"
+        android:paddingRight="@dimen/dp14"
+        android:paddingBottom="@dimen/dp10"
+        android:paddingTop="@dimen/dp10"
+        android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="@dimen/dp16"
+            android:layout_height="@dimen/dp16"
+            android:id="@+id/imgStatus"
+            android:layout_marginRight="@dimen/dp8"
+            android:visibility="visible"
+            app:srcCompat="@drawable/svg_ic_icon_multi_tip_warn"
+            android:layout_marginEnd="@dimen/dp8"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/operate_failure"
+              android:gravity="center"
+              android:id="@+id/txtMessage"
+              android:textSize="@dimen/sp14"
+              android:textColor="@color/color_ffffff"
+    />
+
+</LinearLayout>

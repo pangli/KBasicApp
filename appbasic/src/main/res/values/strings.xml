@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">BasicModule</string>
+    <string name="cancel">取消</string>
+    <string name="determine">确定</string>
+    <string name="i_know">我知道了</string>
+    <string name="remind">提示</string>
+    <string name="refuse">拒绝</string>
+    <string name="setting">设置</string>
+    <string name="authorization">授权</string>
+    <string name="permission_authorization_message">当前应用缺少相应的权限，您需要设置相应的权限后方可正常使用该功能。为了您的安全，请授权相关权限</string>
+    <string name="permission_setting_message">当前应用缺少相应的权限，您需要进入设置->应用->权限页面打开相应的权限</string>
+    <string name="loading">请稍后…</string>
+    <string name="operate_failure">操作失败</string>
+    <string name="click_retry">加载失败，点击重试</string>
+    <string name="not_data">暂无数据</string>
+    <string name="not_network">没有网络连接</string>
+    <string name="not_more_data">没有更多数据了</string>
+    <string name="get_more_data_failure">获取更多数据失败</string>
+    <string name="from_gallery_select">从相册中选择</string>
+    <string name="take_photo">拍照</string>
+</resources>

@@ -1,0 +1,34 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kcrason.appbasic">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application>
+
+        <meta-data
+            android:name="com.kcrason.appbasic.network.glide.OkHttpProgressGlideModule"
+            android:value="AppGlideModule" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.fid.basicmodule.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/phone_paths" />
+        </provider>
+
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <activity
+            android:name=".ui.activity.PreviewImagesActivity"
+            android:theme="@style/AppTheme" />
+    </application>
+</manifest>
