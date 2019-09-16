@@ -35,7 +35,7 @@ publish {
     publishVersion = '1.0.0'//版本号，更新Library的时候只需要增加版本号即可。
     desc = 'app basic module'//描述，这个随意
     //website：项目地址，一般项目都会上传github,这里给github的地址即可
-    website = 'https://github.com/KCrason/MotionEventPopupWindow'
+    website = 'https://github.com/KCrason/KBasicApp'
 }
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
